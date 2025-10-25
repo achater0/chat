@@ -1,0 +1,147 @@
+
+.chatHeader{
+    background-color: rgba(19, 19, 19, 0.5);
+    border-bottom:.5px solid rgba(19, 19, 19, 1);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.3) 0px 10px 10px -5px;
+    min-height: 80px;
+    width: 100%;
+    align-items: center;
+}
+
+.chatBox {
+    width: 100%;
+}
+
+.profile{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    padding-left: 5%;
+}
+.profileName{
+    font-size: 20px;
+    font-family: "inter";
+    font-style: regular;
+    color: rgb(172, 178, 175);
+}
+
+.dots{
+    background-color: transparent;
+    position: relative;
+    height: 44px;
+    width: 44px;
+    padding: 10px;
+    color: rgb(172, 178, 175);
+    transition: all 0.25s ease-in-out;
+    border-radius: 50%;
+}
+.dots:hover {
+    cursor: pointer;
+    background: rgba(35, 29, 34, 1);
+    transform: scale(1.1);
+}
+.dots.active {
+    background: rgba(35, 29, 34, 1);
+    transform: scale(1.1);
+}
+
+.dotsMenu{
+    font-style: normal;
+    font-family: "inter";
+    color: rgb(172, 178, 175);
+    background: rgba(35, 29, 34, 1);
+    position: absolute;
+    top: 50px;
+    width: 150px;
+    height: 170px;
+    right: 20px;
+    border-radius: 10px;
+    z-index: 1000;
+    justify-content: center;
+    align-items:flex-start;
+    gap: 15%;
+    font-size: 14px;
+}
+
+.relativeParent{ 
+    position: relative;
+    margin-right: 2%;
+}
+
+.firstB{
+    margin-left: 10%;
+}
+.seconB{
+    margin-left: 8%;
+}
+.thirdB{
+    margin-left: 11%;
+}
+
+.chatBox {
+  border: 1px solid pink;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .chatInput {
+    background-color: rgba(71, 67, 67, 0.271);
+    height: 65px;
+    border-radius: 20px;
+    width: 90%;
+    margin-left: 5%;
+    border:1px solid rgba(71, 67, 67, .5);
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+  }
+  .ph{
+    color: white;
+  }
+
+  .ph::placeholder
+  {
+    color: rgb(224, 224, 224);
+    opacity: 0.5;
+  }
+  
+.sendIcon {
+  background-color: transparent;
+  height: 100%;
+  width: 30px;
+  margin-right: 1%;
+  /* padding: 9px; */
+  color: rgb(172, 178, 175);
+}
+
+.sendIcon:hover {
+  cursor: pointer;
+  color: #00ff85;
+  transform: scale(1.15);
+}
+
+.chatMessagesBox {
+  height: calc(100% - 80px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 35px;
+}
+.messages {
+  height: 100%;
+  overflow-y: scroll;
+}
+.messages::-webkit-scrollbar {
+  width: 0;
+}
+.messages::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.emptyMessages {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

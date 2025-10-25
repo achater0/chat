@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&display=swap');
+@import "tailwindcss";
+
+
+:root {
+  --clr-primary: #00ff85;
+  --clr-secondary: #ff9f1c;
+  --clr-bold: #386641;
+  --clr-neutral-light: #e0e0e0;
+  --clr-neutral-dark: #121212;
+  --clr-primary-t-60: rgba(0, 255, 133, 0.6);
+  --clr-primary-t-20: rgba(0, 255, 133, 0.2);
+  --clr-secondary-t-20: rgba(255, 159, 28, 0.2);
+  --clr-bold-t-50: rgba(56, 102, 65, 0.5);
+  --clr-bold-t-60: rgba(56, 102, 65, 0.6);
+  --clr-bold-t-20: rgba(56, 102, 65, 0.2);
+  --clr-bold-t-25: rgba(56, 102, 65, 0.25);
+  --clr-neutral-light-t-60: rgba(224, 224, 224, 0.6);
+  --clr-neutral-dark-t-60: rgba(18, 18, 18, 0.6);
+  --clr-neutral-dark-t-12: rgba(18, 18, 18, 0.12);
+  --clr-invalid-t-50: rgba(213, 39, 39, 0.5);
+  --clr-valid-t-50: rgba(56, 161, 105, 0.5);
+}
+
+
+
+html,body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-color: rgb(0, 0, 0);
+  box-sizing: border-box;
+  font-family: "Orbitron", sans-serif;
+  -webkit-user-select: none; 
+  -ms-user-select: none;    
+  user-select: none;        
+}

@@ -1,0 +1,47 @@
+
+
+.element{
+    height: 100px;
+    margin: 10px auto;
+    align-items: center;
+    padding-left: 5%;
+}
+
+
+ul {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 255, 133, 0.3) rgba(18, 18, 18, 0) ;
+    
+}
+ul::-webkit-scrollbar {
+    width: 8px;
+}
+ul::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+
+.name{
+    font-size: 20px;
+    font-weight: regular;
+    font-family: "inter";
+}
+.lastMessage{
+    font-size: 18px;
+    font-weight: light;
+    font-family: "inter";
+    color: #b0b0b0;
+}
+
+.element:hover {
+    background-color: rgba(0, 255, 133, 0.03);
+    transition: 0.3s all ;
+    border-left: 4px solid orange;
+
+}
+.element.active{
+    background-color: rgba(0, 255, 133, 0.05);
+    border-left: 2px solid var(--clr-secondary) ;
+    
+}
+
