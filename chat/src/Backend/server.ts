@@ -47,14 +47,14 @@ const users = db.prepare(`SELECT * FROM users`).all();
 users.forEach((user:any) => {
   console.log(`User ID: ${user.id}, Name: ${user.name}`)});
 
-// db.prepare(`INSERT INTO conversations (user1_id, user2_id) VALUES (?, ?)`).run(1, 2);
-// db.prepare(`INSERT INTO conversations (user1_id, user2_id) VALUES (?, ?)`).run(1, 3);
-// db.prepare(`INSERT INTO conversations (user1_id, user2_id) VALUES (?, ?)`).run(1, 4);
+db.prepare(`INSERT INTO conversations (user1_id, user2_id) VALUES (?, ?)`).run(1, 2);
+db.prepare(`INSERT INTO conversations (user1_id, user2_id) VALUES (?, ?)`).run(1, 3);
+db.prepare(`INSERT INTO conversations (user1_id, user2_id) VALUES (?, ?)`).run(1, 4);
 
-// db.prepare(`INSERT INTO messages (sender_id, message, conversation_id) VALUES (?, ?, ?)`).run(3, 'si rachid lhna', 2);
-// db.prepare(`INSERT INTO messages (sender_id, message, conversation_id) VALUES (?, ?, ?)`).run(1, 'lhna lhmdolilah', 2);
-// db.prepare(`INSERT INTO messages (sender_id, message, conversation_id) VALUES (?, ?, ?)`).run(1, 'ama kiy yak tfjijt', 2);
-// db.prepare(`INSERT INTO messages (sender_id, message, conversation_id) VALUES (?, ?, ?)`).run(3, 'akihfd rbi agmano', 2);
+db.prepare(`INSERT INTO messages (sender_id, message, conversation_id) VALUES (?, ?, ?)`).run(3, 'si rachid lhna', 1);
+db.prepare(`INSERT INTO messages (sender_id, message, conversation_id) VALUES (?, ?, ?)`).run(1, 'lhna lhmdolilah', 1);
+db.prepare(`INSERT INTO messages (sender_id, message, conversation_id) VALUES (?, ?, ?)`).run(1, 'ama kiy yak tfjijt', 1);
+db.prepare(`INSERT INTO messages (sender_id, message, conversation_id) VALUES (?, ?, ?)`).run(3, 'akihfd rbi agmano', 1);
 
 
 
