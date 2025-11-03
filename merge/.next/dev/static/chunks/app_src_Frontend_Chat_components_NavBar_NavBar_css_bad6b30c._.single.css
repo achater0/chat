@@ -1,0 +1,82 @@
+/* [project]/app/src/Frontend/Chat/components/NavBar/NavBar.css [app-client] (css) */
+.navbar {
+  color: #e0e0e0;
+  background: linear-gradient(90deg, #3866411a, #00ff851a);
+  border-bottom: 1px solid #00ff8533;
+  align-items: center;
+  width: 100vw;
+  height: 80px;
+  padding-left: 3%;
+  padding-right: 1.5%;
+  display: flex;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg, #00ff85, #ff9f1c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: Orbitron;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.paths {
+  gap: 40px;
+  font-family: Orbitron;
+  font-size: 20px;
+}
+
+.paths a {
+  box-sizing: border-box;
+  border: 1px solid #00ff8500;
+  border-radius: 10px;
+  padding: 5px 10px;
+  transition: all .3s;
+}
+
+.navbar .paths a:hover, .navbar .paths a:focus {
+  color: #00ff8599;
+  background-color: #00ff851a;
+  border-color: #00ff8533;
+}
+
+.chat, .settings {
+  color: #e0e0e0b9;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: #12121299;
+  border: 1px solid #12121299;
+  border-radius: 10px;
+  padding: 10px;
+  transition: all .3s;
+}
+
+.chat:hover, .chat:focus, .settings:hover, .settings:focus {
+  color: #00ff85;
+  background-color: #00ff851a;
+  border-color: #00ff8580;
+  outline: none;
+}
+
+.logout {
+  color: #e0e0e0;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: #48050599;
+  border: 1px solid #48050599;
+  border-radius: 10px;
+  padding: 10px;
+  transition: all .3s;
+}
+
+.logout:hover, .logout:focus {
+  color: #ff4c4c;
+  background-color: #ff4c4c33;
+  border-color: #ff4c4c66;
+  outline: none;
+}
+
+/*# sourceMappingURL=app_src_Frontend_Chat_components_NavBar_NavBar_css_bad6b30c._.single.css.map*/

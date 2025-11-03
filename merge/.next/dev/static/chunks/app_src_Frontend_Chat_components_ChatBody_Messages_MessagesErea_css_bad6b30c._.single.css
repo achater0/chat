@@ -1,0 +1,61 @@
+/* [project]/app/src/Frontend/Chat/components/ChatBody/Messages/MessagesErea.css [app-client] (css) */
+.messagesArea {
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: none;
+  flex-direction: column;
+  gap: 15px;
+  padding: 5%;
+  display: flex;
+}
+
+.messageRow {
+  color: #e0e0e0;
+  border-radius: 20px;
+  max-width: 70%;
+  padding: 10px 14px;
+  font-family: inter;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 2;
+}
+
+.sent {
+  background: linear-gradient(90deg, #00ff8566, #00995066);
+  border: none;
+  border-top-right-radius: 4px;
+  align-self: flex-end;
+}
+
+.received {
+  background: linear-gradient(90deg, #df9e2599, #c8aa6e99);
+  border: none;
+  border-top-left-radius: 4px;
+  align-self: flex-start;
+}
+
+.emptyMessages {
+  color: #a1a1a1;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-family: inter;
+  font-size: 20px;
+  font-weight: normal;
+  display: flex;
+}
+
+.messagesArea {
+  scrollbar-width: thin;
+  scrollbar-color: #ff9f1c4d #12121200;
+}
+
+.messagesArea::-webkit-scrollbar {
+  width: 8px;
+}
+
+.messagesArea::-webkit-scrollbar-track {
+  background: none;
+}
+
+/*# sourceMappingURL=app_src_Frontend_Chat_components_ChatBody_Messages_MessagesErea_css_bad6b30c._.single.css.map*/

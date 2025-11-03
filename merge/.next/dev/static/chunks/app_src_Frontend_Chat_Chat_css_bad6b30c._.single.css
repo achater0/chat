@@ -1,0 +1,10 @@
+/* [project]/app/src/Frontend/Chat/Chat.css [app-client] (css) */
+.Chat {
+  background: linear-gradient(135deg, var(--clr-primary-t-20), var(--clr-neutral-dark-t-12), var(--clr-secondary-t-20));
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/*# sourceMappingURL=app_src_Frontend_Chat_Chat_css_bad6b30c._.single.css.map*/

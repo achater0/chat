@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/src/Frontend/Chat/Chat.css"],"sourcesContent":["\n\n.Chat{\n    width: 100vw;\n    position: fixed;\n    top: 0;\n    left: 0;\n    background: linear-gradient(\n        135deg,\n        var(--clr-primary-t-20),\n        var(--clr-neutral-dark-t-12),\n        var(--clr-secondary-t-20)\n      );  \n}"],"names":[],"mappings":"AAEA"}}]
+}

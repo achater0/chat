@@ -1,0 +1,36 @@
+/* [project]/app/src/Frontend/Chat/components/ChatBody/Friends/Friends.css [app-client] (css) */
+.friends {
+  color: #e0e0e0;
+  border-right: 1px solid #00ff8533;
+  flex-direction: column;
+  width: 20%;
+  height: 100%;
+  display: flex;
+}
+
+.search {
+  background-color: #12121299;
+  border: 1px solid #00ff851a;
+  border-radius: 40px;
+  outline: none;
+  align-items: center;
+  width: 90%;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 20px;
+  display: flex;
+}
+
+.search:hover {
+  box-shadow: 0 0 10px #00ff854d;
+}
+
+.message {
+  padding-left: 5%;
+}
+
+.search::placeholder {
+  opacity: .5;
+}
+
+/*# sourceMappingURL=app_src_Frontend_Chat_components_ChatBody_Friends_Friends_css_bad6b30c._.single.css.map*/

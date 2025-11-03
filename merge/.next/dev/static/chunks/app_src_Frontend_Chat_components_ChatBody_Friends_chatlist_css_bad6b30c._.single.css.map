@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/src/Frontend/Chat/components/ChatBody/Friends/chatlist.css"],"sourcesContent":["\n\n.element{\n    height: 100px;\n    margin: 10px auto;\n    align-items: center;\n    padding-left: 5%;\n}\n\n\nul {\n    scrollbar-width: thin;\n    scrollbar-color: rgba(0, 255, 133, 0.3) rgba(18, 18, 18, 0) ;\n    \n}\nul::-webkit-scrollbar {\n    width: 8px;\n}\nul::-webkit-scrollbar-track {\n    background: transparent;\n}\n\n\n.name{\n    font-size: 20px;\n    font-weight: regular;\n    font-family: \"inter\";\n}\n.lastMessage{\n    font-size: 18px;\n    font-weight: light;\n    font-family: \"inter\";\n    color: #b0b0b0;\n}\n\n.element:hover {\n    background-color: rgba(0, 255, 133, 0.03);\n    transition: 0.3s all ;\n    border-left: 4px solid orange;\n\n}\n.element.active{\n    background-color: rgba(0, 255, 133, 0.05);\n    border-left: 2px solid var(--clr-secondary) ;\n    \n}\n\n"],"names":[],"mappings":"AAEA;;;;;;;AAQA;;;;;AAKA;;;;AAGA;;;;AAKA;;;;;;AAKA;;;;;;;AAOA;;;;;;AAMA"}}]
+}

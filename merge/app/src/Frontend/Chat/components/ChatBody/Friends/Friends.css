@@ -1,0 +1,40 @@
+
+
+.friends{
+    width: 20%;
+    height: 100%;
+    border-right: 1px solid rgba(0, 255, 133, 0.2);
+    display: flex;
+    flex-direction: column;
+    color: rgb(224, 224, 224);
+}
+
+
+.search {
+    display: flex;
+    align-items: center;       
+    margin: 20px auto;        
+    border: 1px solid rgba(0, 255, 133, 0.1);
+    width: 90%;           
+    border-radius: 40px;
+    padding: 10px;
+    background-color: rgba(18,18,18,0.6);
+    font-size: 20px;
+    outline: none;
+}
+
+  .search:hover {
+    box-shadow: 0 0 10px rgba(0, 255, 133, 0.3);
+  }
+  
+
+
+  .message{
+    padding-left: 5%;
+  }
+
+  .search::placeholder
+  {
+    opacity: 0.5;
+  }
+

@@ -1,0 +1,46 @@
+/* [project]/app/src/Frontend/Chat/components/ChatBody/Friends/chatlist.css [app-client] (css) */
+.element {
+  align-items: center;
+  height: 100px;
+  margin: 10px auto;
+  padding-left: 5%;
+}
+
+ul {
+  scrollbar-width: thin;
+  scrollbar-color: #00ff854d #12121200;
+}
+
+ul::-webkit-scrollbar {
+  width: 8px;
+}
+
+ul::-webkit-scrollbar-track {
+  background: none;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: regular;
+  font-family: inter;
+}
+
+.lastMessage {
+  font-size: 18px;
+  font-weight: light;
+  color: #b0b0b0;
+  font-family: inter;
+}
+
+.element:hover {
+  background-color: #00ff8508;
+  border-left: 4px solid orange;
+  transition: all .3s;
+}
+
+.element.active {
+  border-left: 2px solid var(--clr-secondary);
+  background-color: #00ff850d;
+}
+
+/*# sourceMappingURL=app_src_Frontend_Chat_components_ChatBody_Friends_chatlist_css_bad6b30c._.single.css.map*/
