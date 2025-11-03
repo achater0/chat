@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme {
+  --font-orbitron: var(--font-orbitron), monospace;
+  --font-sans: var(--font-orbitron), monospace;
+  --font-open-sans: var(--font-open-sans), sans-serif;
+}
+
+:root {
+  --clr-primary: #00ff85;
+  --clr-secondary: #ff9f1c;
+  --clr-bold: #386641;
+  --clr-neutral-light: #e0e0e0;
+  --clr-neutral-dark: #121212;
+  --clr-primary-t-60: rgba(0, 255, 133, 0.6);
+  --clr-primary-t-70: rgba(0, 255, 133, 0.7);
+  --clr-primary-t-10: rgba(0, 255, 133, 0.1);
+  --clr-primary-t-30: rgba(0, 255, 133, 0.3);
+  --clr-primary-t-20: rgba(0, 255, 133, 0.2);
+  --clr-secondary-t-20: rgba(255, 159, 28, 0.2);
+  --clr-secondary-t-70: rgba(255, 159, 28, 0.7);
+  --clr-bold-t-50: rgba(56, 102, 65, 0.5);
+  --clr-bold-t-60: rgba(56, 102, 65, 0.6);
+  --clr-bold-t-20: rgba(56, 102, 65, 0.2);
+  --clr-bold-t-25: rgba(56, 102, 65, 0.25);
+  --clr-neutral-light-t-60: rgba(224, 224, 224, 0.6);
+  --clr-neutral-light-t-30: rgba(224, 224, 224, 0.3);
+  --clr-neutral-light-t-75: rgba(224, 224, 224, 0.75);
+  --clr-neutral-dark-t-60: rgba(18, 18, 18, 0.6);
+  --clr-neutral-dark-t-12: rgba(18, 18, 18, 0.12);
+  --clr-invalid-t-50: rgba(213, 39, 39, 0.5);
+  --clr-valid-t-50: rgba(56, 161, 105, 0.5);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box; 
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-color: black;
+  font-family: var(--font-orbitron);
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+}
+body::-webkit-scrollbar-thumb {
+  background: var(--clr-primary-t-70);
+  border-radius: 6px;
+}
+
+img, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+#root, #__next {
+  isolation: isolate;
+}

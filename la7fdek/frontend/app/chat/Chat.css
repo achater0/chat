@@ -1,0 +1,14 @@
+
+
+.Chat{
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(
+        135deg,
+        var(--clr-primary-t-20),
+        var(--clr-neutral-dark-t-12),
+        var(--clr-secondary-t-20)
+      );  
+}
